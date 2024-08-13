@@ -11,6 +11,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "vue": "^3.4.29",
     "vue-awesome-paginate": "^1.2.0"
   },
