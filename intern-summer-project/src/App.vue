@@ -1,5 +1,3 @@
-
-
 <template>
 
 
@@ -18,6 +16,7 @@ import Header from './components/Header.vue'
 import SiteContainer from './SiteContainer.vue'
 
 </script>
+
 
 <style>
 

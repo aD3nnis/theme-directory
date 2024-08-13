@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "YouTube",
+        "url": "https://www.youtube.com/",
+        "rating": "5/10",
+        "site_size": "major"
+    },
+    {
+        "id": "2",
+        "name": "RT Archive",
+        "url": "https://rtarchive.org/videos",
+        "rating": "9/10",
+        "site_size": "minor"
+    },
+    {
+        "id": "3",
+        "name": "Amazon",
+        "url": "https://www.amazon.com",
+        "rating": "7/10",
+        "site_size": "major"
+    },
+    {
+        "id": "4",
+        "name": "2Barrels",
+        "url": "https://www.twobarrels.com",
+        "rating": "10/10",
+        "site_size": "minor"
+    }
+]
