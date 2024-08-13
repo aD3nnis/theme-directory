@@ -1,7 +1,7 @@
 
 import {reactive, computed} from 'vue'
 import axios from 'axios';
-import { orderBy } from 'lodash/orderBy';
+import orderBy from 'lodash/orderBy';
 
 export const stripUrl = (url) => {
   return url.replace(/(http:\/\/|https:\/\/|www\.)/g,'').replace('/', '');
@@ -83,7 +83,7 @@ export const filteredSites = computed (()=>{
     for(let filterType in store.state.filters){
       const attributes = store.state.filters[filterType];
       let currentFilterMatched = false;
-      for (let attribute in attribute){
+      for (let attribute in attributes){
         const filterEnabledForAttibute = attributes[attribute];
         if (filterEnabledForAttibute && (site[filterType]=== attribute)){
           currentFilterMatched = true;
